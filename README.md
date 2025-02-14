@@ -40,6 +40,12 @@ This command shows the current wireless connection status.
 
 ---
 
+## Updating System Packages
+Before reinstalling Network Manager, update your package list to ensure you get the latest versions:
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
 ## Reinstalling Network Manager
 Once connected, you can restore Network Manager by reinstalling the necessary packages:
 ```bash
