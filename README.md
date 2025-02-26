@@ -28,7 +28,7 @@ This will display a list of available Wi-Fi networks.
 ### 3. Connect to a Wireless Network
 To manually associate with a Wi-Fi network, use:
 ```bash
-sudo iwconfig wlan0 "oranjo"
+sudo iwconfig wlan0 ssid "oranjo"
 ```
 Replace `oranjo` with the SSID of your preferred network.
 
